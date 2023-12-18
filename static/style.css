@@ -1,0 +1,230 @@
+html {
+  background-color: rgba(0, 40, 88, 0.6666666667);
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+html dialog#borrarArticulo div,
+body dialog#borrarArticulo div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+html dialog#borrarArticulo div h1,
+body dialog#borrarArticulo div h1 {
+  font-size: 30px;
+  color: #002858;
+}
+html dialog#borrarArticulo div div.botones,
+body dialog#borrarArticulo div div.botones {
+  display: flex;
+  flex-direction: row;
+}
+html dialog#borrarArticulo div div.botones button,
+body dialog#borrarArticulo div div.botones button {
+  margin: 5px;
+}
+html #insertarArticulo form,
+body #insertarArticulo form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+html #insertarArticulo div,
+body #insertarArticulo div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+}
+html #insertarArticulo div h2,
+body #insertarArticulo div h2 {
+  color: #002858;
+  text-align: center;
+}
+html #insertarArticulo div div.introducir,
+body #insertarArticulo div div.introducir {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+  padding: 1rem;
+}
+html #insertarArticulo div div.introducir:has(input:focus),
+body #insertarArticulo div div.introducir:has(input:focus) {
+  background-color: #ffc836;
+}
+html #insertarArticulo div div.introducir:has(select:focus),
+body #insertarArticulo div div.introducir:has(select:focus) {
+  background-color: #ffc836;
+}
+html #insertarArticulo div div.introducir label,
+body #insertarArticulo div div.introducir label {
+  flex: 1;
+  color: #002858;
+  text-align: center;
+  float: left;
+}
+html #insertarArticulo div div.introducir input,
+html #insertarArticulo div div.introducir select,
+body #insertarArticulo div div.introducir input,
+body #insertarArticulo div div.introducir select {
+  flex: 1;
+  float: left;
+  width: 8rem;
+}
+html #insertarArticulo div div.botones,
+body #insertarArticulo div div.botones {
+  display: flex;
+  flex-direction: row;
+}
+html #insertarArticulo div div.botones input,
+body #insertarArticulo div div.botones input {
+  margin: 5px;
+}
+html main,
+body main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+html main h1,
+body main h1 {
+  padding: 20px;
+  color: #ffc836;
+}
+html main table,
+body main table {
+  border-collapse: collapse;
+}
+html main table *,
+html main table td,
+html main table th,
+body main table *,
+body main table td,
+body main table th {
+  text-align: center;
+  padding: 0.75px;
+}
+html main table thead,
+body main table thead {
+  background-color: #ffc836;
+  color: #002858;
+}
+html main table thead th,
+body main table thead th {
+  padding: 15px;
+  color: rgba(0, 40, 88, 0.6666666667);
+}
+html main table tbody,
+html main table tr,
+html main table td,
+body main table tbody,
+body main table tr,
+body main table td {
+  border: solid #ffc836 2px;
+  color: #ffc836;
+}
+html main table tbody tr:hover,
+html main table tr tr:hover,
+html main table td tr:hover,
+body main table tbody tr:hover,
+body main table tr tr:hover,
+body main table td tr:hover {
+  background-color: #ffc836;
+}
+html main table tbody tr:hover td,
+html main table tr tr:hover td,
+html main table td tr:hover td,
+body main table tbody tr:hover td,
+body main table tr tr:hover td,
+body main table td tr:hover td {
+  color: #002858;
+}
+html main table .pill,
+body main table .pill {
+  background-color: #ffc836;
+  border-radius: 20px;
+  color: rgba(0, 40, 88, 0.6666666667);
+  padding: 5px 10px;
+  display: inline-block;
+  margin: 0.5rem;
+  border: solid rgba(0, 40, 88, 0.6666666667);
+  font-size: 70%;
+}
+html main table td,
+body main table td {
+  padding: 10px;
+}
+html aside,
+body aside {
+  padding-top: 15px;
+  position: fixed;
+  width: 13rem;
+  background-color: #002858;
+  color: white;
+  top: 0;
+  bottom: 0;
+}
+html aside div,
+body aside div {
+  display: flex;
+  justify-content: center;
+}
+html aside ul,
+body aside ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+html aside ul li,
+body aside ul li {
+  padding: 25px;
+  width: 71%;
+  text-align: center;
+}
+html aside ul li a,
+body aside ul li a {
+  text-decoration: none;
+  color: white;
+}
+html aside ul li:hover,
+body aside ul li:hover {
+  background-color: #ffc836;
+}
+html aside ul div.separator,
+body aside ul div.separator {
+  height: 1px;
+  width: 100%;
+  margin: 10px;
+  background-color: white;
+}
+html button.amarillo,
+body button.amarillo {
+  background-color: #ffc836;
+}
+html input.amarillo,
+body input.amarillo {
+  background-color: #ffc836;
+}
+html footer,
+body footer {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  color: #ffc836;
+}
+
+/* Continuar desde aqui... *//*# sourceMappingURL=style.css.map */

@@ -1,0 +1,238 @@
+$azul : #002858;
+$azul2 : #002858aa;
+$amarillo: #ffc836;
+
+html {
+    background-color: $azul2;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+    dialog#borrarArticulo {
+        div {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+
+            h1 {
+                font-size: 30px;
+                color: $azul;
+            }
+
+            div.botones {
+                display: flex;
+                flex-direction: row;
+
+                button {
+                    margin: 5px;
+                }
+            }
+        }
+    }
+
+    #insertarArticulo {
+        form{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        div {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 400px;
+
+            h2 {
+                color: $azul;
+                text-align: center;
+            }
+
+            div.introducir {
+                display: flex;
+                flex: 1;
+                justify-content: center;
+                width: 80%;
+                margin:auto;
+                padding: 1rem;
+
+                &:has(input:focus) {
+                    background-color: $amarillo;
+                }
+                &:has(select:focus) {
+                    background-color: $amarillo;
+                }
+
+                label {
+                    flex: 1;
+                    color: $azul;
+                    text-align: center;
+                    float: left;
+                }
+
+                input,
+                select {
+                    flex: 1;
+                    float: left;
+                    width: 8rem;
+                }
+            }
+
+            div.botones {
+                display: flex;
+                flex-direction: row;
+
+                input {
+                    margin: 5px;
+                }
+            }
+        }
+    }
+
+
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+
+
+        h1 {
+            padding: 20px;
+            color: $amarillo;
+        }
+
+        table {
+            border-collapse: collapse;
+            
+
+
+            *,
+            td,
+            th {
+                text-align: center;
+                padding: 0.75px;
+            }
+
+            thead {
+                background-color: $amarillo;
+                color: $azul;
+
+                th {
+                    padding: 15px;
+                    color: $azul2;
+                }
+            }
+
+            tbody,
+            tr,
+            td {
+                border: solid $amarillo 2px;
+                color: $amarillo;
+
+
+                tr:hover {
+                    background-color: $amarillo;
+
+                    td {
+                        color: $azul;
+                    }
+                }
+            }
+
+            .pill {
+                background-color: $amarillo;
+                border-radius: 20px;
+                color: $azul2;
+                padding: 5px 10px;
+                display: inline-block;
+                margin: 0.5rem;
+                border: solid $azul2;
+                font-size: 70%;
+            }
+
+            td {
+                padding: 10px;
+            }
+        }
+
+    }
+
+    aside {
+        padding-top: 15px;
+        position: fixed;
+        width: 13rem;
+        background-color: $azul;
+        color: white;
+        top: 0;
+        bottom: 0;
+
+        div {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        ul {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            align-items: center;
+
+            li {
+                padding: 25px;
+                width: 71%;
+                text-align: center;
+
+                a {
+                    text-decoration: none;
+                    color: white;
+                }
+
+                &:hover {
+                    background-color: $amarillo;
+
+
+                }
+            }
+
+
+            div.separator {
+                height: 1px;
+                width: 100%;
+                margin: 10px;
+                background-color: white;
+            }
+        }
+    }
+
+
+    button.amarillo{
+        background-color: $amarillo;
+    }
+    input.amarillo{
+        background-color: $amarillo;
+    }
+
+    footer {
+        padding: 30px;
+        display: flex;
+        justify-content: center;
+        color: $amarillo;
+    }
+
+
+}
+
+
+
+/* Continuar desde aqui... */
